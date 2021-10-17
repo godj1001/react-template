@@ -48,5 +48,4 @@
 "dist",
 "build"
 ],
-"extends": "./paths.json"
 }

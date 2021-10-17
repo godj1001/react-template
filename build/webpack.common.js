@@ -100,5 +100,17 @@ module.exports = {
       '@': srcDir,
       '@pages': `${srcDir}/pages`,
     },
+    extensions: [
+      ".mjs",
+      ".web.ts",
+      ".ts",
+      ".web.tsx",
+      ".tsx",
+      ".web.js",
+      ".js",
+      ".json",
+      ".web.jsx",
+      ".jsx"
+    ],
   },
 }
