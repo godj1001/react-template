@@ -1,8 +1,9 @@
-# React template
-this is a simple template for react + tsx ,
-you can use it by groove-cli for init project.
+# groove react template 
+this is a react template project created by groove-cli .
 
-you also can use it by git 
+# React template
+
+## Start
 ```
 npm run start 
 ```
