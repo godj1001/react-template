@@ -1,8 +1,8 @@
 const webpack = require('webpack')
 const {merge} = require('webpack-merge')
-
+const path = require('path')
 const commonConfig = require('./webpack.common')
-
+const HtmlWebpackPlugin = require('html-webpack-plugin')
 module.exports = merge(commonConfig,{
   mode: 'development',
   devServer:{
@@ -15,6 +15,11 @@ module.exports = merge(commonConfig,{
 
     }
   },
-  plugins: [new webpack.HotModuleReplacementPlugin()],
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: path.join(__dirname,'../public/index.html'),
+    }),
+    new webpack.HotModuleReplacementPlugin(),
+  ],
   devtool: 'eval-source-map'
 })

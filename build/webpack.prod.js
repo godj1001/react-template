@@ -26,7 +26,6 @@ let config = merge(commonConfig,{
     },
     splitChunks: {
       chunks: 'all',
-
     }
   }
 })
