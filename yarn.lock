@@ -2963,6 +2963,11 @@ graceful-fs@^4.1.2, graceful-fs@^4.2.3, graceful-fs@^4.2.4, graceful-fs@^4.2.6:
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.8.tgz"
   integrity sha512-qkIilPUYcNhJpd33n0GBXTB1MMPp14TxEsEs0pTrsSVucApsYzW5V+Q8Qxhik6KU3evy+qkAAowTByymK0avdg==
 
+groove-monitor@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/groove-monitor/-/groove-monitor-1.0.2.tgz#fe25b528c6dee45b00114b37aeb6070cac8c44b6"
+  integrity sha512-W2aqMkW8O+lOq02U2nH1bBIDo7YLdIxiwaMR5A++U63LYLnBzevLGdyIIHl8PWJMPoOSHl5rjc2O6qM6zUHsrg==
+
 handle-thing@^2.0.0:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/handle-thing/-/handle-thing-2.0.1.tgz"
