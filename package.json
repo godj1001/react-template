@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "vite-start": "vite",
+    "vite-build": "vite build",
     "start": "webpack serve --mode development --color --progress --config build/webpack.dev.js",
     "build": "NODE_ENV=production webpack --progress --config ./build/webpack.prod.js",
     "build:watch": "NODE_ENV=production webpack --progress --config ./build/webpack.prod.js",
