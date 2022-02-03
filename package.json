@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "vite-start": "vite",
     "start": "webpack serve --mode development --color --progress --config build/webpack.dev.js",
     "build": "NODE_ENV=production webpack --progress --config ./build/webpack.prod.js",
     "build:watch": "NODE_ENV=production webpack --progress --config ./build/webpack.prod.js",
@@ -16,6 +17,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@vitejs/plugin-react": "^1.1.4",
     "groove-monitor": "^1.0.2",
     "html-webpack-plugin": "^5.5.0",
     "react": "^17.0.2",
@@ -24,6 +26,7 @@
     "sass-loader": "^12.2.0",
     "style-loader": "^3.3.0",
     "typescript": "^4.4.4",
+    "vite": "^2.7.13",
     "webpack": "^5.58.2"
   },
   "devDependencies": {
@@ -51,6 +54,7 @@
     "postcss-loader": "^6.2.0",
     "postcss-scss": "^4.0.1",
     "precss": "^4.0.0",
+    "sass": "^1.49.7",
     "webpack-cli": "^4.9.0",
     "webpack-dev-server": "^4.3.1",
     "webpack-merge": "^5.8.0"
