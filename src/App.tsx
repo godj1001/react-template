@@ -1,8 +1,6 @@
 import * as React from 'react';
-import {useState} from 'react';
 import Style from './App.module.scss';
 const App = () => {
-    const [name, setName] = useState('groove react template');
     return (
         <div className={Style.App} id='wrapper'>
             <div className={Style.box1}>
